@@ -1,0 +1,19 @@
+{
+    "name": "battis/pdo-factory",
+    "description": "Lightweight PDO data object manager",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Battis\\PDOFactory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Seth Battis",
+            "email": "seth@battis.net"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
